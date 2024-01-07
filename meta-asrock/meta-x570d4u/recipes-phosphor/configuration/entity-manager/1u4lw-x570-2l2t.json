@@ -1,0 +1,18 @@
+{
+    "Exposes": [],
+    "Name": "1U4LW-X570/2L2T",
+    "Type": "Product",
+    "Probe": ["xyz.openbmc_project.FruDevice({'PRODUCT_MANUFACTURER': 'ASRockRack', 'PRODUCT_PRODUCT_NAME': '1U4LW-X570/2L2T'})"],
+    "xyz.openbmc_project.Inventory.Decorator.Asset": {
+        "PartNumber": "$PRODUCT_PRODUCT_NAME",
+        "SerialNumber": "$PRODUCT_SERIAL_NUMBER",
+        "Manufacturer": "$PRODUCT_MANUFACTURER",
+        "BuildDate": "",
+        "Model": "$PRODUCT_PRODUCT_NAME",
+        "SubModel": "",
+        "SparePartNumber": ""
+    },
+    "xyz.openbmc_project.Inventory.Decorator.AssetTag": {
+        "AssetTag": "$PRODUCT_ASSET_TAG"
+    }
+}

@@ -1,0 +1,93 @@
+[
+   {
+        "name": "FAN1",
+        "path": "/system/chassis/x570d4u/FAN1",
+        "methods": [
+           {
+              "type": "tach",
+              "sensors": [
+                 "FAN1",
+              ]
+           }
+        ],
+        "rpolicy": {
+           "type": "anyof"
+        }
+   },
+   {
+        "name": "FAN2",
+        "path": "/system/chassis/x570d4u/FAN2",
+        "methods": [
+           {
+              "type": "tach",
+              "sensors": [
+                 "FAN2",
+              ]
+           }
+        ],
+        "rpolicy": {
+           "type": "anyof"
+        }
+   },
+   {
+        "name": "FAN3",
+        "path": "/system/chassis/x570d4u/FAN3",
+        "methods": [
+           {
+              "type": "tach",
+              "sensors": [
+                 "FAN3",
+              ]
+           }
+        ],
+        "rpolicy": {
+           "type": "anyof"
+        }
+   },
+   {
+        "name": "FAN4",
+        "path": "/system/chassis/x570d4u/FAN4",
+        "methods": [
+           {
+              "type": "tach",
+              "sensors": [
+                 "FAN4",
+              ]
+           }
+        ],
+        "rpolicy": {
+           "type": "anyof"
+        }
+   },
+   {
+        "name": "FAN5",
+        "path": "/system/chassis/x570d4u/FAN5",
+        "methods": [
+           {
+              "type": "tach",
+              "sensors": [
+                 "FAN5",
+              ]
+           }
+        ],
+        "rpolicy": {
+           "type": "anyof"
+        }
+   },
+   {
+        "name": "FAN6",
+        "path": "/system/chassis/x570d4u/FAN6",
+        "methods": [
+           {
+              "type": "tach",
+              "sensors": [
+                 "FAN6",
+              ]
+           }
+        ],
+        "rpolicy": {
+           "type": "anyof"
+        }
+   }
+]
+

@@ -1,0 +1,68 @@
+[
+    {
+        "name": "air_cooled_zone0_fans",
+        "members": [
+            "/xyz/openbmc_project/inventory/system/chassis/x570d4u/FAN1",
+            "/xyz/openbmc_project/inventory/system/chassis/x570d4u/FAN2",
+            "/xyz/openbmc_project/inventory/system/chassis/x570d4u/FAN3",
+            "/xyz/openbmc_project/inventory/system/chassis/x570d4u/FAN4",
+            "/xyz/openbmc_project/inventory/system/chassis/x570d4u/FAN5",
+            "/xyz/openbmc_project/inventory/system/chassis/x570d4u/FAN6"
+        ]
+    },
+    {
+        "name": "fan1",
+        "members": [
+          "/xyz/openbmc_project/inventory/system/chassis/x570d4u/FAN1/FAN1"
+        ]
+    },
+    {
+        "name": "fan2",
+        "members": [
+          "/xyz/openbmc_project/inventory/system/chassis/x570d4u/FAN2/FAN2"
+        ]
+    },
+    {
+        "name": "fan3",
+        "members": [
+          "/xyz/openbmc_project/inventory/system/chassis/x570d4u/FAN3/FAN3"
+        ]
+    },
+    {
+        "name": "fan4",
+        "members": [
+          "/xyz/openbmc_project/inventory/system/chassis/x570d4u/FAN4/FAN4"
+        ]
+    },
+    {
+        "name": "fan5",
+        "members": [
+          "/xyz/openbmc_project/inventory/system/chassis/x570d4u/FAN5/FAN5"
+        ]
+    },
+    {
+        "name": "fan6",
+        "members": [
+          "/xyz/openbmc_project/inventory/system/chassis/x570d4u/FAN6/FAN6"
+        ]
+    },
+    {
+        "name": "zone0_ambient",
+        "service": "xyz.openbmc_project.HwmonTempSensor",
+        "members": [
+            "/xyz/openbmc_project/sensors/temperature/MAINBOARD_1"
+        ]
+    },
+    {
+        "name": "zone0_cpu",
+        "members": [
+            "/xyz/openbmc_project/sensors/temperature/TSI0_TEMP"
+        ]
+    },
+    {
+        "name": "zone0_pch",
+        "members": [
+            "/xyz/openbmc_project/sensors/temperature/TSI1_TEMP"
+        ]
+    },
+]
